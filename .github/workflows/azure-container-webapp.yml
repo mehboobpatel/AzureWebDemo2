@@ -40,6 +40,9 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:  # Add at job level (overrides repo default if needed)
+      contents: read
+      packages: write 
 
     steps:
       - uses: actions/checkout@v4
