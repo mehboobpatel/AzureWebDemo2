@@ -1,0 +1,19 @@
+# Python virtual environment
+myenv/
+*.pyc
+__pycache__/
+
+# Environment / secret files
+.env
+envfile
+set_db_env.sh
+
+# Git
+.git
+.gitignore
+
+# Logs
+*.log
+
+# OS files
+.DS_Store

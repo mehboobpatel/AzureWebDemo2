@@ -1,0 +1,4 @@
+DB_SERVER=maheboobserver.database.windows.net
+DB_NAME=feedbackdb
+DB_USER=mehboob
+DB_PASSWORD=Kelp@2023
